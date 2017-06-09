@@ -1,0 +1,36 @@
+{
+  "name": "redux-reporter",
+  "version": "0.1.2",
+  "description": "Redux middleware for reporting actions to third party APIs.",
+  "main": "dist/bundle.umd.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "scripts": {
+    "build": "rm -rf dist/ && rollup -c",
+    "prepublish": "npm run build",
+    "test": "",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/northwesternmutual/redux-reporter.git"
+  },
+  "homepage": "https://github.com/northwesternmutual/redux-reporter",
+  "keywords": [
+		"new relic",
+		"sentry",
+		"keen",
+		"segment",
+    "redux",
+    "middleware",
+    "redux-middleware",
+    "adobe dtm",
+    "crash reporter",
+    "analytics"
+  ],
+  "devDependencies": {
+    "rollup": "0.42.0",
+    "rollup-plugin-buble": "0.15.0",
+    "standard": "10.0.2",
+    "tape": "4.6.3"
+  }
+}
